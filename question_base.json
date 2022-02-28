@@ -1,0 +1,50 @@
+[
+    {
+        "question": "¿Has trabajado con JavaScript?",
+        "answer": "Si! he realizado varios proyectitos con JavaScript.",
+        "wrong_answer": "Java...que??",
+        "wrong_answer2": "Ni lo sé ni me interesa.",
+        "image": "javascript.jpg",
+        "objet_fit": "cover"
+    },
+    {
+        "question": "¿Que me dices de ReactJS?",
+        "answer": "También lo conozco! en el bootcamp que he realizado hemos dedicado un modulo entero solamente para conocer mejor esta librería!",
+        "wrong_answer": "ReactJS? eso tiene algo que ver con ... ni idea!",
+        "wrong_answer2": "Pasa palabra...",
+        "image": "ReactJS.png",
+        "objet_fit": "cover"
+    },
+    {
+        "question": "¿Y Angular y VueJS?",
+        "answer": "Me pillaste, con ellos si que no he trabajado. Pero me encantaría saber mas de ellos. Está en mi libreta de prioridades!",
+        "wrong_answer": "Emmm... si si, claro ¿Tú no?",
+        "wrong_answer2": "¿Que es eso?",
+        "image": "angular-and-vuejs.jpg",
+        "objet_fit": "cover"
+    },
+    {
+        "question": "Que tal con SASS, CSS3 y el diseño Responsive",
+        "answer": "Waoh! estoy en racha! he trabajado con todas ellas!. Sigo practicando para aprender mas pero tengo la suerte de conocerlas",
+        "wrong_answer": "Me suena a chino, lo siento",
+        "wrong_answer2": "Aisssss... No",
+        "image": "responsive.jpg",
+        "objet_fit": "cover"
+    },
+    {
+        "question": "Ya estamos terminando, solamente quiero saber si conoces metodologías Agile (Kanban y Scrum)",
+        "answer": "Que bien! Esto también lo conozco. He trabajado en diferentes equipos y nos hemos organizado con estas metodologías.",
+        "wrong_answer": "Pues no, la verdad",
+        "wrong_answer2": "Me suena, pero no.",
+        "image": "scrumKanban.png",
+        "objet_fit": "cover"
+    }, 
+    {
+        "question": "Para terminar, ¿tienes ganas de trabajar?",
+        "answer": "Aquí si que lo bordo! Tengo MUCHÍSIMAS ganas de trabajar, de seguir aprendiendo y de demostrar que con constancia puedo aportar mucho en un equípo. Soy programadora junior, pero soy senior en ganas y motivación!",
+        "wrong_answer": "Se está muy bien en el sofá, para que mentir",
+        "wrong_answer2": "No muchas, la verdad.",
+        "image": "work.jpg",
+        "objet_fit": "cover"
+    }
+]
