@@ -32,6 +32,14 @@
         "objet_fit": "cover"
     },
     {
+        "question": "¿Has realizado  testing automático?",
+        "answer": "Conozco un poquito, pero ya estoy buscando cursos para formarme mas en este campo, se de su importancia. Preguntame en un tiempo y lo bordo!",
+        "wrong_answer": "¿testing automático?... emmmm no, la verdad es que no",
+        "wrong_answer2": "Si si si.... vale, no",
+        "image": "testing.webp",
+        "objet_fit": "cover"
+    },
+    {
         "question": "Ya estamos terminando, solamente quiero saber si conoces metodologías Agile (Kanban y Scrum)",
         "answer": "Que bien! Esto también lo conozco. He trabajado en diferentes equipos y nos hemos organizado con estas metodologías.",
         "wrong_answer": "Pues no, la verdad",
