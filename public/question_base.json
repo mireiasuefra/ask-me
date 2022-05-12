@@ -16,8 +16,16 @@
         "objet_fit": "cover"
     },
     {
+        "question": "¿Te suena eso de 'Peticiones al servidor'?",
+        "answer": "He trabajado con peticiones a APIs. Para hacer este miniejercicio estoy haciendo una peticion a un JSON creado por mi",
+        "wrong_answer": "No sé que es eso",
+        "wrong_answer2": "No, lo siento",
+        "image": "servidor.png",
+        "objet_fit": "cover"
+    },
+    {
         "question": "¿Y Angular y VueJS?",
-        "answer": "Me pillaste, con ellos si que no he trabajado. Pero me encantaría saber mas de ellos. Está en mi libreta de prioridades!",
+        "answer": "Me pillaste, con ellos si que no he trabajado nada... Pero me encantaría aprender sobre ellos. ¡Está en mi libreta de prioridades!",
         "wrong_answer": "Emmm... si si, claro ¿Tú no?",
         "wrong_answer2": "¿Que es eso?",
         "image": "angular-and-vuejs.jpg",
@@ -33,7 +41,7 @@
     },
     {
         "question": "¿Has realizado  testing automático?",
-        "answer": "Conozco un poquito, pero ya estoy buscando cursos para formarme mas en este campo, se de su importancia. Preguntame en un tiempo y lo bordo!",
+        "answer": "Conozco un poquito, pero ya estoy buscando cursos para formarme mas en este campo, se de su importancia. Pregúntame en un tiempo y lo bordo!",
         "wrong_answer": "¿testing automático?... emmmm no, la verdad es que no",
         "wrong_answer2": "Si si si.... vale, no",
         "image": "testing.webp",
@@ -48,7 +56,7 @@
         "objet_fit": "cover"
     }, 
     {
-        "question": "Para terminar, ¿tienes ganas de trabajar?",
+        "question": "Con esta pregunta termino, ¿tienes ganas de trabajar?",
         "answer": "Aquí si que lo bordo! Tengo MUCHÍSIMAS ganas de trabajar, de seguir aprendiendo y de demostrar que con constancia puedo aportar mucho en un equípo. Soy programadora junior, pero soy senior en ganas y motivación!",
         "wrong_answer": "Se está muy bien en el sofá, para que mentir",
         "wrong_answer2": "No muchas, la verdad.",
