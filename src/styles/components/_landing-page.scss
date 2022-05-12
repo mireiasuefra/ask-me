@@ -1,12 +1,9 @@
-.header {
-  background-image: url(../../images/bg-img.jpg);
-  background-size: cover;
-  font-family: $principal-font;
+.landing-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 82vh;
+  text-align: center;
   width: 100%;
 
   @media (min-width: $breakpoint-tablet) {
@@ -18,10 +15,6 @@
     text-transform: uppercase;
     font-size: 25px;
     line-height: 40px;
-    
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     min-width: 200px;
     margin-bottom: 30px;
     color: $secondary-color;
@@ -38,9 +31,6 @@
     font-size: 17px;
     line-height: 30px;
     max-width: 150px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     min-width: 200px;
     margin-bottom: 30px;
     color: $terciary-color;
@@ -54,8 +44,25 @@
 
   &__img {
     width: 70%;
-    max-width: 500px;
+    max-width: 350px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 30px;
+  }
+
+  &__link {
+    color: $secondary-color;
+    text-transform: uppercase;
+    max-width: 200px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 15px;
+    cursor: pointer;
+
+    @media (min-width: $breakpoint-tablet) {
+      line-height: 50px;
+      font-size: 25px;
+      max-width: 400px;
+      
+    }
   }
 }

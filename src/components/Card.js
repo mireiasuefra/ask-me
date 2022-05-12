@@ -1,6 +1,7 @@
 function Card() {
     return (
    <>
+   patata
    </>
     );
   }
