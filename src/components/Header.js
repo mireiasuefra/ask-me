@@ -12,7 +12,7 @@ function Header() {
       <img
         className="header__img"
         src={logoHeader}
-        alt="Logo Harry Potter"
+        alt="Logo"
       ></img>
     </header>
   );

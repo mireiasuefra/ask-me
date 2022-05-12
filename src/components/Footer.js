@@ -1,8 +1,13 @@
+import logoFooter from "../images/MireiaSuero.JPG";
 function Footer() {
   return (
     <>
       <section className="footer">
-        <small className="footer__copy">&copy; Mireia Suero 2022</small>
+      <img
+        className="footer__img"
+        src={logoFooter}
+        alt="Logo"
+      ></img>
         <div className="footer__rrss" >
           <p className="footer__rrss-title">About me:</p>
           <a
