@@ -12,7 +12,7 @@
         "answer": "También lo conozco! en el bootcamp que he realizado hemos dedicado un modulo entero solamente para conocer mejor esta librería!",
         "wrong_answer": "ReactJS? eso tiene algo que ver con ... ni idea!",
         "wrong_answer2": "Pasa palabra...",
-        "image": "ReactJS.png",
+        "image": "reactjs.png",
         "objet_fit": "cover"
     },
     {
@@ -52,7 +52,7 @@
         "answer": "Que bien! Esto también lo conozco. He trabajado en diferentes equipos y nos hemos organizado con estas metodologías.",
         "wrong_answer": "Pues no, la verdad",
         "wrong_answer2": "Me suena, pero no.",
-        "image": "scrumKanban.png",
+        "image": "scrum-kanban.png",
         "objet_fit": "cover"
     }, 
     {

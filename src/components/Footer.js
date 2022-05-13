@@ -20,7 +20,7 @@ function Footer() {
             className="footer__rrss-web"
             href="https://www.linkedin.com/in/mireia-suefra/"
           >
-            <i class="icon fab fa-linkedin"></i>
+            <i className="icon fab fa-linkedin"></i>
           </a>
         </div>
       </section>

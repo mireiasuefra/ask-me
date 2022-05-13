@@ -2,13 +2,13 @@ const getToResultJson = () => {
   return fetch("question_base.json")
     .then((response) => response.json())
     .then((response) => {
-      return response.map((responseTest) => {
+      return response.map((test) => {
         return {
-          question: responseTest.question,
-          answer: responseTest.answer,
-          wrongAnswer: responseTest.wrong_answer,
-          wrongAnswer2: responseTest.wrong_answer2,
-          image: responseTest.image,
+          question: test.question,
+          answer: test.answer,
+          wrongAnswer: test.wrong_answer,
+          wrongAnswer2: test.wrong_answer2,
+          image: test.image,
         };
       });
     });
