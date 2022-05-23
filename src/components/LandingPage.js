@@ -15,7 +15,7 @@ function LandingPage() {
       </header>
       <main>
         <Link className="landing-page__link" to="/question">
-          ¡Pincha y sabrás un poquito mas sobre mi!
+          ¡Pincha! Son unas preguntas para conocerme un poquito mejor 😊
         </Link>
       </main>
     </>

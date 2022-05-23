@@ -1,11 +1,12 @@
 import "../styles/App.scss";
 import { useEffect, useState } from "react";
 import { Route, Switch, useHistory } from "react-router-dom";
+import logoThanks from "../images/sequeestasahi.jpg";
 import getToResultJson from "../services/api";
 import LandingPage from "./LandingPage";
 import Header from "./Header";
 import Footer from "./Footer";
-import Card from "./Card";
+import Question from "./Question";
 
 function App() {
   const [questions, setQuestions] = useState([]);
@@ -37,16 +38,20 @@ function App() {
 
         <Route>
           <Header />
-          <main>
+          <main className="main">
             <Route exact path="/question">
               {hasQuestions ? (
-                <Card question={questions[qestionsIndex]} />
+                <Question question={questions[qestionsIndex]} />
               ) : null}
-              <button onClick={onClick}> Siguiente</button>
+              <button className="button-next" onClick={onClick}> Siguiente</button>
             </Route>
 
             <Route exact path="/thanks">
-              Gracias!!!
+              <div className="goodbye">
+              <p className="goodbye__text">Sé que estás ahí, empresa que busca perfiles juniors cargados de motivación y con muchas ganas de darlo todo en un trabajo.</p>
+              <img className="goodbye__image" src={logoThanks} alt="Logo"></img>
+              <p className="goodbye__thanks">!GRACIAS¡</p>
+              </div>
             </Route>
           </main>
         </Route>

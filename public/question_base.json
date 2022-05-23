@@ -1,66 +1,172 @@
 [
     {
         "question": "¿Has trabajado con JavaScript?",
-        "answer": "Si! he realizado varios proyectitos con JavaScript.",
-        "wrong_answer": "Java...que??",
-        "wrong_answer2": "Ni lo sé ni me interesa.",
         "image": "javascript.jpg",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 2,
+                "text": "Java...que??",
+                "isRight": false
+            },
+            {
+                "id": 1,
+                "text": "Si! he realizado varios proyectitos con JavaScript.", "isRight": true
+            },
+            {
+                "id": 3,
+                "text":"Ni lo sé ni me interesa.",
+                "isRight": false
+            }
+
+        ]
     },
     {
         "question": "¿Que me dices de ReactJS?",
-        "answer": "También lo conozco! en el bootcamp que he realizado hemos dedicado un modulo entero solamente para conocer mejor esta librería!",
-        "wrong_answer": "ReactJS? eso tiene algo que ver con ... ni idea!",
-        "wrong_answer2": "Pasa palabra...",
         "image": "reactjs.png",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 1,
+                "text": "También lo conozco! en el bootcamp que he realizado hemos dedicado un modulo entero solamente para conocer mejor esta librería!",
+                "isRight": true
+            },
+            {
+                "id": 2,
+                "text": "ReactJS? eso tiene algo que ver con ... ni idea!",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "Pasa palabra...",
+                "isRight": false
+            }
+
+        ]
     },
     {
         "question": "¿Te suena eso de 'Peticiones al servidor'?",
-        "answer": "He trabajado con peticiones a APIs. Para hacer este miniejercicio estoy haciendo una peticion a un JSON creado por mi",
-        "wrong_answer": "No sé que es eso",
-        "wrong_answer2": "No, lo siento",
         "image": "servidor.png",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 1,
+                "text": "He trabajado con peticiones a APIs. Para hacer este miniejercicio estoy haciendo una peticion a un JSON creado por mi",
+                "isRight": true
+            },
+            {
+                "id": 2,
+                "text": "No sé que es eso",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "No, lo siento",
+                "isRight": false
+            }
+        ]
     },
     {
         "question": "¿Y Angular y VueJS?",
-        "answer": "Me pillaste, con ellos si que no he trabajado nada... Pero me encantaría aprender sobre ellos. ¡Está en mi libreta de prioridades!",
-        "wrong_answer": "Emmm... si si, claro ¿Tú no?",
-        "wrong_answer2": "¿Que es eso?",
         "image": "angular-and-vuejs.jpg",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 2,
+                "text": "¿Que es eso?",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "Emmm... si si, claro ¿Tú no?",
+                "isRight": false
+            },
+            {
+                "id": 1,
+                "text": "Me pillaste, con ellos si que no he trabajado nada... Pero me encantaría aprender sobre ellos. ¡Está en mi libreta de prioridades!",
+                "isRight": true
+            }
+        ]
     },
     {
         "question": "Que tal con SASS, CSS3 y el diseño Responsive",
-        "answer": "Waoh! estoy en racha! he trabajado con todas ellas!. Sigo practicando para aprender mas pero tengo la suerte de conocerlas",
-        "wrong_answer": "Me suena a chino, lo siento",
-        "wrong_answer2": "Aisssss... No",
         "image": "responsive.jpg",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 2,
+                "text": "Me suena a chino, lo siento",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "Aisssss... No",
+                "isRight": false
+            },
+            {
+                "id": 1,
+                "text": "Waoh! estoy en racha! he trabajado con todas ellas!. Sigo practicando para aprender mas pero tengo la suerte de conocerlas",
+                "isRight": true
+            }
+        ]
     },
     {
         "question": "¿Has realizado  testing automático?",
-        "answer": "Conozco un poquito, pero ya estoy buscando cursos para formarme mas en este campo, se de su importancia. Pregúntame en un tiempo y lo bordo!",
-        "wrong_answer": "¿testing automático?... emmmm no, la verdad es que no",
-        "wrong_answer2": "Si si si.... vale, no",
         "image": "testing.webp",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 1,
+                "text": "Conozco un poquito, pero ya estoy buscando cursos para formarme mas en este campo, se de su importancia. Pregúntame en un tiempo y lo bordo!",
+                "isRight": true
+            },
+            {
+                "id": 2,
+                "text": "Si si si.... vale, no",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "¿testing automático?... emmmm no, la verdad es que no",
+                "isRight": false
+            }
+
+        ]
     },
     {
         "question": "Ya estamos terminando, solamente quiero saber si conoces metodologías Agile (Kanban y Scrum)",
-        "answer": "Que bien! Esto también lo conozco. He trabajado en diferentes equipos y nos hemos organizado con estas metodologías.",
-        "wrong_answer": "Pues no, la verdad",
-        "wrong_answer2": "Me suena, pero no.",
         "image": "scrum-kanban.png",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 2,
+                "text": "Pues no, la verdad",
+                "isRight": false
+            },
+            {
+                "id": 1,
+                "text": "Que bien! Esto también lo conozco. He trabajado en diferentes equipos y nos hemos organizado con estas metodologías.",
+                "isRight": true
+            },
+            {
+                "id": 3,
+                "text": "Me suena, pero no.",
+                "isRight": false
+            }
+        ]
     }, 
     {
         "question": "Con esta pregunta termino, ¿tienes ganas de trabajar?",
-        "answer": "Aquí si que lo bordo! Tengo MUCHÍSIMAS ganas de trabajar, de seguir aprendiendo y de demostrar que con constancia puedo aportar mucho en un equípo. Soy programadora junior, pero soy senior en ganas y motivación!",
-        "wrong_answer": "Se está muy bien en el sofá, para que mentir",
-        "wrong_answer2": "No muchas, la verdad.",
         "image": "work.jpg",
-        "objet_fit": "cover"
+        "answers": [
+            {
+                "id": 2,
+                "text": "Aquí si que lo bordo! Tengo MUCHÍSIMAS ganas de trabajar, de seguir aprendiendo y de demostrar que con constancia puedo aportar mucho en un equípo. Soy programadora junior, pero soy senior en ganas y motivación!",
+                "isRight": true
+            },
+            {
+                "id": 1,
+                "text": "Se está muy bien en el sofá, para que mentir",
+                "isRight": false
+            },
+            {
+                "id": 3,
+                "text": "No muchas, la verdad.",
+                "isRight": false
+            }
+        ]
     }
 ]

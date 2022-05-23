@@ -1,0 +1,17 @@
+.answer {
+  color:rgb(236, 245, 245);
+  background-color: $secondary-color;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 2px solid $secondary-color;
+
+  &--wrong {
+    background-color: rgb(239, 134, 134);
+  }
+
+  &--right {
+    background-color: rgb(138, 205, 138);
+  }
+}

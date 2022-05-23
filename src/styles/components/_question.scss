@@ -1,0 +1,35 @@
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(236, 245, 245);
+  width: 70%;
+  border-radius: 30px;
+  border: 2px solid $principal-color;
+ 
+
+  &__title {
+    font-weight: bold;
+    color: $terciary-color;
+    padding-top: 15px;
+  }
+
+  &__text {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: $terciary-color;
+    padding-top: 15px;
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 600px;
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    padding-top: 15px;
+  }
+}
