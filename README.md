@@ -6,7 +6,7 @@ In this project you will see some of my programming skills.
 
 ### Demo
 
-
+https://mireiasuefra.github.io/ask-me/
 
 
 ## Built with 🚀
@@ -33,8 +33,6 @@ In this project you will see some of my programming skills.
   ```
 
 This runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
-
-
 
 
 ## Improvements 📝
