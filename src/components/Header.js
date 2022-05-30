@@ -1,4 +1,4 @@
-import logoHeader from "../images/Mireia.png";
+import logoHeader from "../images/logo-header.png";
 import { Link } from "react-router-dom";
 
 function Header() {

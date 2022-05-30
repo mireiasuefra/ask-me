@@ -15,14 +15,10 @@
     font-weight: bold;
     text-transform: uppercase;
     font-size: 25px;
-    line-height: 40px;
-    min-width: 200px;
     margin-top: 30px;
-    margin-bottom: 30px;
     color: $secondary-color;
 
     @media (min-width: $breakpoint-tablet) {
-      line-height: 60px;
       font-size: 50px;
     }
   }
@@ -30,16 +26,12 @@
   &__subtitle {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 17px;
-    line-height: 30px;
-    max-width: 150px;
-    min-width: 200px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-top: 30px;
     color: $terciary-color;
 
     @media (min-width: $breakpoint-tablet) {
-      line-height: 50px;
-      font-size: 33px;
+      font-size: 32px;
       max-width: 400px;
     }
   }
@@ -49,27 +41,49 @@
     max-width: 350px;
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 30px;
+    margin-top: 30px;
+
     @media (min-width: $breakpoint-tablet) {
       margin-left: 20px;
+      margin-top: 0;
     }
   }
 
-  &__link {
-    color: $secondary-color;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 25px;
-    margin-top: 15px;
-    cursor: pointer;
+  &__main {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
+    padding-bottom: 15px;
+  }
+
+  &__button {
+    margin-top: 15px;
+    background-color: $terciary-color;
+    color: $background-color;
+    border-radius: 30px;
+    border: 1px solid $terciary-color;
+    padding: 10px 50px;
+    font-size: 30px;
+    cursor: pointer;
 
     @media (min-width: $breakpoint-tablet) {
-      line-height: 50px;
-      font-size: 25px;
+      font-size: 26px;
+    }
+
+    &:hover {
+      background-color: $terciary-color--dark;
+    } 
+  }
+
+  &__note {
+    color: $secondary-color;
+    max-width: 80%;
+    margin-top: 15px;
+    font-size: 16px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 14px;
     }
   }
 }

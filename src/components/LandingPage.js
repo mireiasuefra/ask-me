@@ -1,4 +1,4 @@
-import logoHeader from "../images/Mireia.png";
+import logoHeader from "../images/logo-header.png";
 import { Link } from "react-router-dom";
 
 function LandingPage() {
@@ -13,10 +13,13 @@ function LandingPage() {
         </div>
         <img className="landing-page__img" src={logoHeader} alt="Logo"></img>
       </header>
-      <main>
-        <Link className="landing-page__link" to="/question">
-          ¡Pincha! Son unas preguntas para conocerme un poquito mejor 😊
+      <main className="landing-page__main">
+        <Link to="/question">
+          <button className="landing-page__button">¡Conóceme!</button>
         </Link>
+        <small className="landing-page__note">
+          Son unas preguntas para conocerme un poquito mejor 😊
+        </small>
       </main>
     </>
   );

@@ -1,34 +1,38 @@
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    padding: 5px;
-    font-family: $principal-font;
-    background-color: white;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 8px 0 8px 8px rgba(0, 0, 0, 0.2);
 
-    &__img{
-        height: 80px;
+  &__img {
+    height: 80px;
 
-        @media (min-width: $breakpoint-tablet) {
-            height: 100px;
-          }
+    @media (min-width: $breakpoint-tablet) {
+      height: 100px;
     }
+  }
 
-    &__rrss-title{
-        font-size: 13px;
+  &__rrss-title {
+    font-size: 12px;
+
+    @media (min-width: $breakpoint-tablet) {
+      height: 14px;
     }
+  }
 
-    &__rrss{
+  &__rrss {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
-    }
+    color: $principal-color;
+  }
 
-    &__rrss-web{
-        padding-left: 5px;
-        color: $principal-color;
-             
-    }
+  &__rrss-web {
+    margin-left: 5px;
+    color: $principal-color;
+    cursor: pointer;
+  }
 }

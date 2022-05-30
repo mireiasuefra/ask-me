@@ -4,24 +4,32 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: rgb(236, 245, 245);
+  background-color: $background-color;
   width: 70%;
   border-radius: 30px;
   border: 2px solid $principal-color;
- 
 
   &__title {
     font-weight: bold;
     color: $terciary-color;
     padding-top: 15px;
+    font-size: 18px;
+    
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 24px;
+    }
   }
 
   &__text {
+    margin-top: 15px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 25px;
     color: $terciary-color;
-    padding-top: 15px;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 18px;
+    }
   }
 
   &__image {
@@ -29,7 +37,7 @@
     max-width: 600px;
     min-width: 100px;
     padding: 10px;
+    margin-top: 15px;
     border-radius: 30px;
-    padding-top: 15px;
   }
 }

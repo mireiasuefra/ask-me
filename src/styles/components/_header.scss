@@ -5,17 +5,14 @@
   width: 100%;
   padding: 20px;
   background-color: white;
-
-  @media (min-width: $breakpoint-tablet) {
-    flex-direction: row;
-  }
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100px;
 
   &__title {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 18px;
-    line-height: 40px;
-    min-width: 200px;
+    font-size: 16px;
+    line-height: 2;
     color: $secondary-color;
 
     @media (min-width: $breakpoint-tablet) {
@@ -24,7 +21,7 @@
   }
 
   &__subtitle {
-    font-size: 18px;
+    font-size: 16px;
     color: $terciary-color;
 
     @media (min-width: $breakpoint-tablet) {
