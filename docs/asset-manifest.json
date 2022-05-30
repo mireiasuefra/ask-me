@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.ecb560e7.css",
-    "main.js": "./static/js/main.530b559f.js",
-    "static/media/Mireia.png": "./static/media/Mireia.dbfb189cf44322ecc9c3.png",
-    "static/media/sequeestasahi.jpg": "./static/media/sequeestasahi.752568741fbd3ec23737.jpg",
+    "main.css": "./static/css/main.afafdc4c.css",
+    "main.js": "./static/js/main.10c226ce.js",
+    "static/media/logo-header.png": "./static/media/logo-header.dbfb189cf44322ecc9c3.png",
+    "static/media/farewell.jpg": "./static/media/farewell.752568741fbd3ec23737.jpg",
     "static/media/bg-img.jpg": "./static/media/bg-img.f5c27fbbca41b7c982d1.jpg",
-    "static/media/MireiaSuero.JPG": "./static/media/MireiaSuero.3f7419e958ba9bf8eb6c.JPG",
+    "static/media/logo-footer.jpg": "./static/media/logo-footer.3f7419e958ba9bf8eb6c.jpg",
     "index.html": "./index.html",
-    "main.ecb560e7.css.map": "./static/css/main.ecb560e7.css.map",
-    "main.530b559f.js.map": "./static/js/main.530b559f.js.map"
+    "main.afafdc4c.css.map": "./static/css/main.afafdc4c.css.map",
+    "main.10c226ce.js.map": "./static/js/main.10c226ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecb560e7.css",
-    "static/js/main.530b559f.js"
+    "static/css/main.afafdc4c.css",
+    "static/js/main.10c226ce.js"
   ]
 }
